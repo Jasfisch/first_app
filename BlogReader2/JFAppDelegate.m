@@ -12,7 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];
+    [[UINavigationBar appearance] setBackgroundColor:[UIColor redColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor redColor]];
     return YES;
 }
 
